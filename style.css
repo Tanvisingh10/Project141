@@ -1,0 +1,51 @@
+body{
+    background-size: cover;
+}
+
+.heading{
+    width: 100%;
+}
+h1{
+    float: left;
+}
+#button{
+    float: right;
+    font-size: 40px;
+    border: 3px solid black;
+}
+canvas{
+    text-align: center;
+}
+.heading h1{
+    display: inline;
+}
+.heading button{
+    float: right;
+    font-size: 25px;
+    border: 3px solid black;
+}
+canvas{
+    border: 8px solid white;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    margin-top: 150px;
+}
+@keyframes example{
+    from{ border: 10px solid paleturquoise;}
+    to{ border: 12px solid black;}
+}
+h3{
+    line-height: 2;
+    bottom: 0px;
+    width: 100%;
+    background-color: honeydew;
+    color: black;
+    position: fixed;
+    text-align: center;
+}
+#start_btn, #restart_btn{
+font-size: 20px;
+margin-top: 10px;
+}
